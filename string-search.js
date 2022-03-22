@@ -18,6 +18,16 @@ for(const product of products){
     if(product.toLowerCase().indexOf(searching.toLowerCase()) != -1){
         output.push(product);
     }
-}
+};
+
+console.log(output);
+
+// includes
+
+for(const product of products){
+    if(product.toLowerCase().includes(searching.toLowerCase())){
+        output.push(product);
+    }
+};
 
 console.log(output);
