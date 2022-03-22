@@ -6,6 +6,7 @@ const products = [
     'Dell new model',
     'Sony TV old model',
     'LG butterfly',
+    'Dell new leptop',
 ];
 
 const searching = 'Dell';
