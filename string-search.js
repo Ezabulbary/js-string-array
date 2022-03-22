@@ -31,3 +31,13 @@ for(const product of products){
 };
 
 console.log(output);
+
+// starts with 
+
+for(const product of products){
+    if(product.toLowerCase().startsWith(searching.toLowerCase())){
+        output.push(product);
+    }
+};
+
+console.log(output);
